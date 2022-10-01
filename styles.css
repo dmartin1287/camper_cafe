@@ -1,10 +1,12 @@
 body {
 	background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 	font-family: sans-serif;
+	padding: 20px;
 }
 
 h1 {
 	font-size: 40px;
+	margin: 0;
 }
 
 h2 {
@@ -30,6 +32,16 @@ p {
 	max-width: 500px;
 }
 
+hr {
+	height: 2px;
+	background-color: brown;
+	border-color: brown;
+}
+
+.bottom-line {
+	margin-top: 25px;
+}
+
 h1,
 h2 {
 	font-family: Impact, serif;
@@ -37,6 +49,9 @@ h2 {
 
 .item p {
 	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 18px;
 }
 
 .flavor,
@@ -49,8 +64,25 @@ h2 {
 	text-align: right;
 	width: 25%
 }
-hr {
-	height: 3px;
-	background-color: brown;
-	border-color: brown;
+
+/* FOOTER */
+
+footer {
+	font-size: 14px;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: brown;
+}
+
+a:active {
+	color: brown;
 }
